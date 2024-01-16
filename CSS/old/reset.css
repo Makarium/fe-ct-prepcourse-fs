@@ -1,0 +1,45 @@
+/* Reset CSS básico */
+
+/* Normalización de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Normalización de elementos HTML */
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Normalización de encabezados */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Normalización de listas */
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Normalización de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Normalización de imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

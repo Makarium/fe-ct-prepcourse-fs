@@ -1,0 +1,69 @@
+/* reset.css - Reset de estilos para elementos HTML */
+
+/* Elementos de bloque */
+/* Establece propiedades comunes para elementos de bloque */
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+form, fieldset, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    /* Elimina márgenes, rellenos y bordes predeterminados */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* Establece el tamaño de fuente al 100% y hereda la fuente del elemento padre */
+    font-size: 100%;
+    font: inherit;
+    /* Alinea verticalmente los elementos respecto a su línea base */
+    vertical-align: baseline;
+}
+
+/* Elementos de línea */
+/* Establece propiedades comunes para elementos de línea y texto */
+abbr, acronym, address, b, bdi, bdo, big, cite, code, del, dfn,
+em, i, img, ins, kbd, mark, meter, q, rp, rt, ruby, s, samp,
+small, span, strong, sub, sup, time, tt, u, var, wbr {
+    /* Elimina márgenes, rellenos y bordes predeterminados */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* Establece el tamaño de fuente al 100% y hereda la fuente del elemento padre */
+    font-size: 100%;
+    font: inherit;
+    /* Alinea verticalmente los elementos respecto a su línea base */
+    vertical-align: baseline;
+}
+
+/* Elementos específicos */
+/* Establece propiedades para elementos de formulario */
+button, input, select, textarea {
+    /* Elimina el margen predeterminado */
+    margin: 0;
+    /* Hereda la fuente del elemento padre */
+    font: inherit;
+    /* Alinea verticalmente los elementos respecto a su línea base */
+    vertical-align: baseline;
+}
+
+/* Listas */
+/* Establece propiedades comunes para listas */
+ul, ol {
+    /* Elimina márgenes y rellenos predeterminados */
+    margin: 0;
+    padding: 0;
+    /* Quita los estilos de viñetas o numeración */
+    list-style: none;
+}
+
+/* Elementos estructurales */
+/* Establece que los elementos estructurales HTML5 sean elementos de bloque */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    /* Muestra estos elementos como bloques */
+    display: block;
+}
+
+/* Elementos de tabla */
+/* Establece propiedades para tablas */
+table {
+    /* Colapsa los bordes y elimina el espaciado entre celdas */
+    border-collapse: collapse;
+    border-spacing: 0;
+}
